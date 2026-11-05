@@ -24,9 +24,17 @@ def _link(name, url):
     return f'<a href="{html.escape(url, quote=True)}">{html.escape(name)}</a>'
 
 
+VERTICAL_EMOJI = {"survey": "💰", "affiliate": "🤝", "freelance": "💼"}
+
+
 def _entry_line(entry):
-    parts = [f"▪ {_link(entry['name'], entry['url'])}"]
-    if entry.get("min_payout"):
+    # If the owner configured their own referral link, use it for clicks.
+    link = entry.get("your_ref_url") or entry.get("url", "")
+    emoji = VERTICAL_EMOJI.get(entry.get("vertical", "survey"), "▪")
+    parts = [f"▪ {emoji} {_link(entry['name'], link)}"]
+    if entry.get("earn_model"):
+        parts.append(html.escape(str(entry["earn_model"])[:150]))
+    elif entry.get("min_payout"):
         parts.append(f"min {entry['min_payout']}")
     if entry.get("status") == "error":
         parts.append(f"⚠ check failed ({entry.get('check_detail', '')})")
@@ -34,6 +42,8 @@ def _entry_line(entry):
     note = entry.get("notes", "")
     if note:
         line += f"\n<i>{html.escape(note[:180])}</i>"
+    if entry.get("ref_program"):
+        line += f"\n<b>ref:</b> {html.escape(str(entry['ref_program'])[:120])}"
     return line
 
 

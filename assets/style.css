@@ -284,3 +284,27 @@ footer .tiny { color: #5f7370; font-size: 11px; margin-top: 6px; }
   .cards { grid-template-columns: 1fr; }
   .updated { font-size: 11px; }
 }
+
+/* ---------- v2: money-stream chips + badges ---------- */
+.tabs.secondary { margin-top: -4px; margin-bottom: 12px; }
+.tab.secondary {
+  flex: 0 0 auto;
+  padding: 7px 12px;
+  font-size: 12px;
+  font-weight: 800;
+}
+.badge.v-survey { color: #9fe0c0; border-color: rgba(159, 224, 192, .3); }
+.badge.v-affiliate { color: #ffd166; border-color: rgba(255, 209, 102, .3); }
+.badge.v-freelance { color: #9fd8f0; border-color: rgba(159, 216, 240, .3); }
+.badge.ref { color: #ffb27a; border-color: rgba(255, 178, 122, .35); }
+.badge.alias {
+  color: #06130c;
+  background: linear-gradient(135deg, #ffd166, #ff9f43);
+  border-color: transparent;
+}
+.earnline {
+  color: #cfe8dd;
+  font-size: 12.3px;
+  line-height: 1.45;
+  font-weight: 600;
+}

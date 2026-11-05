@@ -40,6 +40,11 @@ def build_snapshot(platforms):
             key=lambda p: (p.get("status") != "ok", p.get("name", "").lower())
         )
 
+    verticals = {}
+    for p in platforms:
+        v = p.get("vertical", "survey")
+        verticals[v] = verticals.get(v, 0) + 1
+
     summary = {
         "total": len(platforms),
         "nigeria_open": len(groups["nigeria_open"]),
@@ -47,6 +52,7 @@ def build_snapshot(platforms):
         "uncertain": len(groups["uncertain"]),
         "checked": sum(1 for p in platforms if p.get("status") in ("ok", "error")),
         "errors": sum(1 for p in platforms if p.get("status") == "error"),
+        "by_vertical": verticals,
     }
 
     snapshot = {
@@ -61,6 +67,11 @@ def build_snapshot(platforms):
                 "name": p["name"],
                 "url": p["url"],
                 "type": p.get("type", ""),
+                "vertical": p.get("vertical", "survey"),
+                "earn_model": p.get("earn_model", ""),
+                "payout_via": p.get("payout_via", ""),
+                "ref_program": p.get("ref_program", ""),
+                "your_ref_url": p.get("your_ref_url", ""),
                 "min_payout": p.get("min_payout", ""),
                 "payout_methods": p.get("payout_methods", ""),
                 "notes": p.get("notes", ""),

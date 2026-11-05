@@ -88,7 +88,15 @@ def main():
     print(f"[{now_utc():%H:%M:%S}] Loaded {len(platforms)} platforms "
           f"from data/sources.json")
 
-    snapshot = finalize(platforms, args.skip_check, args.workers)
+    if args.skip_check and OUTPUT_FILE.exists():
+        # Digest-only run: keep today's real check results as they are.
+        import json
+        with OUTPUT_FILE.open("r", encoding="utf-8") as f:
+            snapshot = json.load(f)
+        print(f"[{now_utc():%H:%M:%S}] Reusing existing snapshot "
+              f"({OUTPUT_FILE.name}) - no checks performed")
+    else:
+        snapshot = finalize(platforms, args.skip_check, args.workers)
 
     if args.send_telegram:
         send(snapshot)

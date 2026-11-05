@@ -9,6 +9,12 @@ into **two clear buckets**:
 - 🔴 **Restricted** — Nigeria is NOT accepted (skip, don't waste time)
 - ❔ **Uncertain** — needs manual confirmation (listed too, with a link)
 
+...across **three money streams**:
+
+- 💰 **Surveys** — sign up, click, get paid
+- 🤝 **Affiliate programs** — earn commissions promoting products (Jumia, Expertnaire, Fiverr Affiliates, hosting, tools...)
+- 💼 **Freelance platforms** — your skills, paid in USD (Fiverr, Upwork, Truelancer...)
+
 Results are published as:
 
 1. a **free website** (GitHub Pages) with daily auto-updates, and
@@ -113,6 +119,26 @@ or use `termux-job-scheduler`/`cronie` from `pkg`, and schedule:
 python ~/survey-hunter/main.py --send-telegram
 ```
 
+## 💸 Monetise this website with YOUR affiliate links
+
+This is the part that turns the site from a tool into a business:
+
+1. Every platform entry in `data/sources.json` has a `"your_ref_url": ""` field
+2. Join the rewards/referral programs behind each site (ySense referrals ~30%,
+   Timebucks ~10% lifetime, Fiverr Affiliates $15–150, Hostinger ~60%,
+   Elementor ~50%, Expertnaire 50% in Naira...)
+3. Paste YOUR tracking URL into `your_ref_url` and commit+push
+
+From that moment every card and every Telegram message routes clicks through
+**your link** — the tracker literally marketplaces for you while you sleep.
+A `💸 your link is live` badge shows where it's active.
+
+**Tips as a web designer:**
+- Bundle hosting/Elementor inside your client packages → double income per job
+- Sell "websites for small businesses (₦)" using Fiverr/Upwork + your portfolio
+- Use Expertnaire/Selar commissions to fund ads once you learn ethical marketing
+- Put your affiliate content on WhatsApp/X/TikTok where NG buyers actually are
+
 ## Run it on your Windows PC
 
 Same commands as Termux — Python 3 is already installed on the PC:
@@ -160,7 +186,7 @@ shows geo-block language is demoted to ❔ until someone confirms.
 ```
 index.html            website (single page, mobile-first)
 assets/               site styles + logic (vanilla, no build tools)
-data/sources.json     editable platform registry  ← EDIT ME
+data/sources.json     editable registry of all money streams (survey / affiliate / freelance) ← EDIT ME
 data/surveys.json     daily generated snapshot
 scraper/              python package (checker, classifier, telegram)
 main.py               CLI entry point

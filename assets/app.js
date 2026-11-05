@@ -6,14 +6,23 @@ const TABS = [
   { id: "restricted", label: "🔴 Restricted" },
   { id: "uncertain", label: "❔ Uncertain" },
 ];
-const FIELDS = ["type", "min_payout", "payout_methods", "notes", "name"];
+const VERTICALS = [
+  { id: "all", label: "All streams" },
+  { id: "survey", label: "💰 Surveys" },
+  { id: "affiliate", label: "🤝 Affiliate" },
+  { id: "freelance", label: "💼 Freelance" },
+];
+const VBADGE = { survey: "💰 Surveys", affiliate: "🤝 Affiliate", freelance: "💼 Freelance" };
+const FIELDS = ["type", "min_payout", "payout_methods", "payout_via", "earn_model", "ref_program", "notes", "name"];
 
 let ALL = null;
 let currentTab = "nigeria_open";
+let verticalFilter = "all";
 let query = "";
 
 const $cards = document.getElementById("cards");
 const $tabs = document.getElementById("tabs");
+const $vchips = document.getElementById("vchips");
 const $stats = document.getElementById("stats");
 const $search = document.getElementById("search");
 const $updated = document.getElementById("updated");
@@ -38,28 +47,35 @@ function dotClass(status) {
 }
 
 function cardHTML(p) {
+  const link = p.your_ref_url || p.url;
+  const isRef = Boolean(p.your_ref_url);
+  const vBadge = VBADGE[p.vertical || "survey"] || "";
   const errNote = p.status === "error" && p.check_detail
     ? `<div class="warn">⚠ Today's check failed (${esc(p.check_detail)}) — the site may be down, geo-blocking bots, or moving.</div>`
     : "";
   return `
   <article class="card">
     <div class="head">
-      <a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>
+      <a href="${esc(link)}" target="_blank" rel="noopener">${esc(p.name)}</a>
       <span class="dot ${dotClass(p.status)}" title="${esc(whenLabel(p.checked_at))}"></span>
     </div>
     <div class="badges">
       <span class="badge type">${esc(p.type)}</span>
+      <span class="badge v-${esc(p.vertical || "survey")}">${esc(vBadge)}</span>
       ${p.min_payout ? `<span class="badge money">💵 min ${esc(p.min_payout)}</span>` : ""}
+      ${p.ref_program ? `<span class="badge ref">🤝 ref: ${esc(p.ref_program)}</span>` : ""}
+      ${isRef ? `<span class="badge alias">💸 your link is live</span>` : ""}
     </div>
-    ${p.payout_methods ? `<div class="meta"><span>💳 ${esc(p.payout_methods)}</span></div>` : ""}
+    ${p.earn_model ? `<div class="earnline">💹 ${esc(p.earn_model)}</div>` : ""}
+    ${(p.payout_methods || p.payout_via) ? `<div class="meta"><span>💳 ${esc(p.payout_methods || p.payout_via)}</span></div>` : ""}
     ${errNote}
     <div class="notes">${esc(p.notes)}</div>
     <div class="meta">
       <span>${esc(whenLabel(p.checked_at))}</span>
       ${p.nigeria_mentioned ? "<span>🇳🇬 mentioned on site today</span>" : ""}
     </div>
-    <a class="visit ${p.status === "error" ? "dim" : ""}" href="${esc(p.url)}"
-       target="_blank" rel="noopener">Open site ↗</a>
+    <a class="visit ${p.status === "error" ? "dim" : ""}" href="${esc(link)}"
+       target="_blank" rel="noopener">Open ${isRef ? "your link 💸" : "site"} ↗</a>
   </article>`;
 }
 
@@ -88,8 +104,12 @@ function currentPlatformList() {
 
 function filtered() {
   const q = query.trim().toLowerCase();
-  if (!q) return currentPlatformList();
-  return currentPlatformList().filter((p) => {
+  let list = currentPlatformList();
+  if (verticalFilter !== "all") {
+    list = list.filter((p) => (p.vertical || "survey") === verticalFilter);
+  }
+  if (!q) return list;
+  return list.filter((p) => {
     const hay = FIELDS.map((f) => String(p[f] ?? "")).join(" ").toLowerCase();
     return hay.includes(q);
   });
@@ -114,9 +134,31 @@ function renderTabs() {
               role="tab" data-tab="${t.id}">
               ${t.label}<span class="count">${count}</span></button>`;
   }).join("");
-  $tabs.querySelectorAll(".tab").forEach((btn) => {
+  $tabs.querySelectorAll(".tab:not(.secondary)").forEach((btn) => {
     btn.addEventListener("click", () => {
       currentTab = btn.dataset.tab;
+      render();
+    });
+  });
+}
+
+function renderVchips() {
+  if (!$vchips) return;
+  const counts = {};
+  for (const key of ["nigeria_open", "restricted", "uncertain"]) {
+    (ALL[key] || []).forEach((p) => {
+      const v = p.vertical || "survey";
+      counts[v] = (counts[v] || 0) + 1;
+    });
+  }
+  $vchips.innerHTML = VERTICALS.map((v) => {
+    const count = v.id === "all" ? (ALL.summary?.total ?? "—") : (counts[v.id] ?? 0);
+    return `<button class="tab secondary ${v.id === verticalFilter ? "active" : ""}"
+              data-vertical="${v.id}">${v.label}<span class="count">${count}</span></button>`;
+  }).join("");
+  $vchips.querySelectorAll(".tab").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      verticalFilter = btn.dataset.vertical;
       render();
     });
   });
@@ -135,6 +177,7 @@ function render() {
   if (!ALL) return;
   renderStats();
   renderTabs();
+  renderVchips();
   renderCards();
   if (ALL.generated_at) {
     const t = new Date(ALL.generated_at);
