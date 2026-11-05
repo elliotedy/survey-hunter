@@ -47,7 +47,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/surveys.json links.html
+          git add data/surveys.json links.html promo.svg promo.html promo.txt
           if git diff --cached --quiet; then
             echo "No changes today."
           else

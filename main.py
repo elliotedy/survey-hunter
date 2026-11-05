@@ -104,6 +104,12 @@ def main():
     links_path = generate_links(snapshot)
     print(f"[{now_utc():%H:%M:%S}] Link hub written -> {links_path}")
 
+    # Daily social share assets (caption + card images).
+    from scraper.promo import generate_promo
+    promo_paths = generate_promo(snapshot)
+    print(f"[{now_utc():%H:%M:%S}] Promo assets -> "
+          f"{', '.join(p.name for p in promo_paths)}")
+
     if args.send_telegram:
         send(snapshot)
 

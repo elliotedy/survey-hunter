@@ -139,6 +139,19 @@ A `💸 your link is live` badge shows where it's active.
 - Use Expertnaire/Selar commissions to fund ads once you learn ethical marketing
 - Put your affiliate content on WhatsApp/X/TikTok where NG buyers actually are
 
+## 🛠 New helper tools (v2.2)
+
+| Command | What it does |
+|---|---|
+| `python signup-helper.py --setup` | stores YOUR real details once (local only, git-ignored) |
+| `python signup-helper.py --list` | shows today's viable signup targets with reachable-first sorting |
+| `python signup-helper.py --fill <name>` | opens the site + copies your details field-by-field |
+| `promo.txt / promo.svg / promo.png / promo.html` | auto-generated daily share assets for WhatsApp/X/TikTok (regenerate with any `main.py` run) |
+| `GIG-KIT.md` | the done-for-you **setup service** playbook: pricing, Fiverr copy, onboarding script |
+
+Never automated: account creation itself. One honest account per human —
+the checker keeps the *research* on autopilot; you stay the trusted human.
+
 ## Run it on your Windows PC
 
 Same commands as Termux — Python 3 is already installed on the PC:
