@@ -28,16 +28,44 @@ from scraper.promo import SITE_URL
 from scraper.registry import OUTPUT_FILE
 
 API = "https://api.telegram.org"
-ROOT = Path(__file__).resolve().parent.parent
+ROOT = Path(__file__).resolve().parent  # script sits at the repo root
 # Offset state lives in the REPO so GitHub Actions runs never re-answer
 # old messages; locally it updates too - commit it now and then.
 STATE_FILE = ROOT / "data" / "listener_offset.txt"
+LOCK_FILE = ROOT / "config" / ".listener.lock"
 MAX_LEN = 3800
 
 try:
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 except Exception:
     pass
+
+
+def _pid_alive(pid):
+    if not pid or pid <= 1:
+        return False
+    try:
+        os.kill(pid, 0)
+        return True
+    except PermissionError:
+        return True  # exists but owned by someone else
+    except OSError:
+        return False
+
+
+def acquire_lock():
+    """Single-instance guard: only one listener may poll the bot."""
+    LOCK_FILE.parent.mkdir(parents=True, exist_ok=True)
+    old = 0
+    if LOCK_FILE.exists():
+        try:
+            old = int(LOCK_FILE.read_text().strip())
+        except Exception:
+            old = 0
+    if old and old != os.getpid() and _pid_alive(old):
+        return False
+    LOCK_FILE.write_text(str(os.getpid()), encoding="utf-8")
+    return True
 
 
 def api(token, method, params=None, payload=None):
@@ -158,17 +186,39 @@ def handle_updates(token, allowed_chat, updates, snapshot):
     return handled
 
 
+def _credentials():
+    """Env vars first (PC/Termux), falling back to git-ignored local file."""
+    token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+    chat = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+    if token and chat:
+        return token, int(chat)
+    cfg = ROOT / "config" / "telegram.json"
+    if cfg.exists():
+        try:
+            data = json.loads(cfg.read_text(encoding="utf-8"))
+            token = str(data.get("token", "")).strip()
+            chat = str(data.get("chat_id", "")).strip()
+            if token and chat:
+                return token, int(chat)
+        except Exception:
+            pass
+    return "", ""
+
+
 def main():
     parser = argparse.ArgumentParser(description="Survey Hunter bot listener")
     parser.add_argument("--once", action="store_true",
                         help="drain pending messages then exit")
     args = parser.parse_args()
 
-    token = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
-    chat_raw = (os.environ.get("TELEGRAM_CHAT_ID") or "").strip()
+    token, chat_raw = _credentials()
     if not token or not chat_raw:
-        print("!! Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID first "
-              "(README / setx).")
+        print("!! No credentials: set TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID "
+              "or create config/telegram.json = {\"token\":..., \"chat_id\":...}")
+        return
+
+    if not acquire_lock():
+        print("Another listener is already running - exiting quietly.")
         return
 
     allowed_chat = int(chat_raw)

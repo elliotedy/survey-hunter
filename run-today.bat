@@ -1,6 +1,7 @@
 @echo off
 title Survey Hunter - daily check
 cd /d "%~dp0"
+wscript "run-listener.vbs" 2>nul
 echo ============================================
 echo   Survey Hunter -today check + classification
 echo ============================================

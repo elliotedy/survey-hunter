@@ -39,7 +39,7 @@ jobs:
         run: |
           if [ -n "$TELEGRAM_BOT_TOKEN" ] && [ -n "$TELEGRAM_CHAT_ID" ]; then
             python main.py --skip-check --send-telegram
-            python bot_listener.py --once
+            python bot_listener.py --once || echo "(local listener already answering messages - skipped here)"
           else
             echo "Telegram secrets not configured - skipping (site data still updated)."
           fi

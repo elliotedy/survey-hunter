@@ -93,6 +93,16 @@ stays fresh forever, for free.
 Done — every morning at **6:30 AM Nigeria time** you'll get the digest.
 If the secrets are missing the workflow still updates the site silently.
 
+### Two-way bot (listener)
+
+Text the bot `/today` and it answers. Runs already inside the GitHub Action;
+for **instant** answers any time, run it locally once - `python bot_listener.py`
+(credentials: env vars OR `config/telegram.json`, git-ignored). It auto-restarts
+at PC logon via the Startup-folder shortcut (`run-listener.vbs`), is
+single-instance locked, and logs to `config/listener.log`. Termux:
+`nohup python bot_listener.py > config/listener.log 2>&1 &`. One listener at
+a time (PC *or* phone).
+
 ## 4) Run it on your phone (Termux)
 
 Install [Termux](https://f-droid.org/en/packages/com.termux/) (use the F-Droid
