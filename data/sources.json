@@ -1,0 +1,356 @@
+{
+  "updated": "2026-11-05",
+  "maintainer": "edit this file any time: set curated_open to true / false / null",
+  "platforms": [
+    {
+      "id": "ysense",
+      "name": "ySense",
+      "url": "https://www.ysense.com/",
+      "type": "Survey router + offers",
+      "curated_open": true,
+      "min_payout": "$5 (Skrill/Payoneer), $10 PayPal",
+      "payout_methods": "PayPal, Skrill, Payoneer, gift cards",
+      "notes": "One of the most reliable routers Nigerians actually receive paid surveys on. Fill your profile 100% to get more invites."
+    },
+    {
+      "id": "timebucks",
+      "name": "Timebucks",
+      "url": "https://timebucks.com/",
+      "type": "GPT site (surveys + real tasks)",
+      "curated_open": true,
+      "min_payout": "From $1 (crypto), $10+ (PayPal)",
+      "payout_methods": "Crypto (USDT/LTC), bank, airtime, PayPal",
+      "notes": "Very Africa-friendly. Extras like Real Tasks (photos, traffic, search) pay well from Nigeria. Crypto payout avoids PayPal headaches."
+    },
+    {
+      "id": "freecash",
+      "name": "Freecash",
+      "url": "https://freecash.com/",
+      "type": "GPT site (surveys + offers)",
+      "curated_open": true,
+      "min_payout": "From $0.50 on some methods",
+      "payout_methods": "Crypto, PayPal, gift cards, bank",
+      "notes": "Fast payouts and many survey partners. Popular with Nigerian users."
+    },
+    {
+      "id": "triaba",
+      "name": "Triaba",
+      "url": "https://www.triaba.com/",
+      "type": "Survey router",
+      "curated_open": true,
+      "min_payout": "$10",
+      "payout_methods": "PayPal, GCodes vouchers",
+      "notes": "Global router with African panels. Smaller rewards but steady invites from Nigeria."
+    },
+    {
+      "id": "mobrog",
+      "name": "MOBROG",
+      "url": "https://www.mobrog.com/en/",
+      "type": "Survey panel",
+      "curated_open": true,
+      "min_payout": "About $6.25",
+      "payout_methods": "PayPal",
+      "notes": "Runs Nigeria panels from time to time. Confirm Nigeria appears in the country list at signup."
+    },
+    {
+      "id": "cashkarma",
+      "name": "CashKarma",
+      "url": "https://cashkarma.io/",
+      "type": "Mobile app (surveys + offers)",
+      "curated_open": true,
+      "min_payout": "$1",
+      "payout_methods": "PayPal, gift cards, crypto",
+      "notes": "Android/iOS app that accepts a wide list of countries including Nigeria."
+    },
+    {
+      "id": "grabpoints",
+      "name": "GrabPoints",
+      "url": "https://grabpoints.com/",
+      "type": "GPT site",
+      "curated_open": true,
+      "min_payout": "$3",
+      "payout_methods": "PayPal, Skrill, gift cards",
+      "notes": "Long-running GPT site. Some offer walls geo-limit NG, but signup is open for Nigeria."
+    },
+    {
+      "id": "offernation",
+      "name": "OfferNation",
+      "url": "https://offernation.com/",
+      "type": "GPT site",
+      "curated_open": true,
+      "min_payout": "$1",
+      "payout_methods": "PayPal, Skrill, Bitcoin, gift cards",
+      "notes": "Pays well on offer walls. Accepts most countries including Nigeria."
+    },
+    {
+      "id": "pawns",
+      "name": "Pawns.app",
+      "url": "https://pawns.app/",
+      "type": "Mobile app (surveys + bandwidth)",
+      "curated_open": true,
+      "min_payout": "$1 (crypto), $5 (PayPal)",
+      "payout_methods": "Crypto, PayPal, gift cards",
+      "notes": "Surveys plus passive internet-sharing income. Works from a Nigerian phone."
+    },
+    {
+      "id": "attapoll",
+      "name": "AttaPoll",
+      "url": "https://attapoll.app/",
+      "type": "Mobile app (surveys)",
+      "curated_open": true,
+      "min_payout": "$3",
+      "payout_methods": "PayPal, Revolut, gift cards",
+      "notes": "Survey app with active presence in Africa. Low payout, quick surveys."
+    },
+    {
+      "id": "yougov",
+      "name": "YouGov",
+      "url": "https://yougov.com/",
+      "type": "Research panel",
+      "curated_open": true,
+      "min_payout": "Varies by region",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "Respected research company with an African/Nigeria panel. Pick Nigeria in the country selector at signup."
+    },
+    {
+      "id": "lifepoints",
+      "name": "LifePoints",
+      "url": "https://lifepointspanel.com/",
+      "type": "Survey panel",
+      "curated_open": true,
+      "min_payout": "From $3",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "Big global panel; Nigerian members report regular invites."
+    },
+    {
+      "id": "toluna",
+      "name": "Toluna Influencers",
+      "url": "https://www.toluna.com/",
+      "type": "Survey panel",
+      "curated_open": true,
+      "min_payout": "Varies by region",
+      "payout_methods": "Gift cards, PayPal (region-dependent)",
+      "notes": "Choose Nigeria in the country selector at signup; a dedicated NG portal usually exists."
+    },
+    {
+      "id": "panelstation",
+      "name": "The Panel Station",
+      "url": "https://www.thepanelstation.com/",
+      "type": "Survey panel",
+      "curated_open": true,
+      "min_payout": "From $5 equivalent",
+      "payout_methods": "Gift cards, PayPal (region-dependent)",
+      "notes": "Focuses on emerging markets; Nigerian membership has historically been available."
+    },
+    {
+      "id": "premise",
+      "name": "Premise",
+      "url": "https://www.premise.com/",
+      "type": "Mobile app (local tasks)",
+      "curated_open": true,
+      "min_payout": "Varies",
+      "payout_methods": "Crypto/PayPal via app",
+      "notes": "Get paid for local price checks and photo tasks around you. Very active in Nigerian cities."
+    },
+    {
+      "id": "streetbees",
+      "name": "Streetbees",
+      "url": "https://www.streetbees.com/",
+      "type": "Mobile app (moments tasks)",
+      "curated_open": true,
+      "min_payout": "$1+",
+      "payout_methods": "PayPal",
+      "notes": "Short video/photo tasks. Nigerian availability is occasional - grab it when tasks appear."
+    },
+    {
+      "id": "cointiply",
+      "name": "Cointiply",
+      "url": "https://cointiply.com/",
+      "type": "Crypto rewards (surveys via offerwalls)",
+      "curated_open": true,
+      "min_payout": "$3",
+      "payout_methods": "BTC, LTC, DOGE",
+      "notes": "Pays only in crypto, which is convenient for Nigerians without PayPal."
+    },
+    {
+      "id": "premiocash",
+      "name": "PremioCash",
+      "url": "https://premiocash.com/",
+      "type": "Survey panel (Africa focus)",
+      "curated_open": true,
+      "min_payout": "About $2",
+      "payout_methods": "Mobile money, gift cards, crypto",
+      "notes": "Built for African users. Low entry point and mobile-money payouts."
+    },
+    {
+      "id": "surveyjunkie",
+      "name": "Survey Junkie",
+      "url": "https://www.surveyjunkie.com/",
+      "type": "Survey panel",
+      "curated_open": false,
+      "min_payout": "$5",
+      "payout_methods": "PayPal, bank, gift cards",
+      "notes": "Restricted to US, Canada and Australia. Nigeria is NOT accepted."
+    },
+    {
+      "id": "brandedsurveys",
+      "name": "Branded Surveys",
+      "url": "https://surveys.brandedresearch.com/",
+      "type": "Survey panel",
+      "curated_open": false,
+      "min_payout": "$5",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "US/UK/CA only. Nigeria is NOT accepted."
+    },
+    {
+      "id": "swagbucks",
+      "name": "Swagbucks",
+      "url": "https://www.swagbucks.com/",
+      "type": "GPT giant",
+      "curated_open": false,
+      "min_payout": "$3+",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "Country list changes but Nigeria is generally NOT accepted."
+    },
+    {
+      "id": "mypoints",
+      "name": "MyPoints",
+      "url": "https://www.mypoints.com/",
+      "type": "GPT site",
+      "curated_open": false,
+      "min_payout": "$10",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "US only. Nigeria is NOT accepted."
+    },
+    {
+      "id": "inboxdollars",
+      "name": "InboxDollars",
+      "url": "https://www.inboxdollars.com/",
+      "type": "GPT site",
+      "curated_open": false,
+      "min_payout": "$15",
+      "payout_methods": "Check, gift cards",
+      "notes": "US only. Nigeria is NOT accepted."
+    },
+    {
+      "id": "opinionoutpost",
+      "name": "Opinion Outpost",
+      "url": "https://www.opinionoutpost.com/",
+      "type": "Survey panel",
+      "curated_open": false,
+      "min_payout": "$10",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "US/UK/CA and a few EU markets. Nigeria is NOT accepted."
+    },
+    {
+      "id": "ipsosisay",
+      "name": "Ipsos i-Say",
+      "url": "https://www.ipsosisay.com/",
+      "type": "Survey panel",
+      "curated_open": false,
+      "min_payout": "$5",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "Runs panels in selected countries; no Nigerian panel."
+    },
+    {
+      "id": "prolific",
+      "name": "Prolific",
+      "url": "https://www.prolific.com/",
+      "type": "Academic research platform",
+      "curated_open": false,
+      "min_payout": "$5",
+      "payout_methods": "PayPal",
+      "notes": "Pays great rates but Nigeria is not an eligible signup country."
+    },
+    {
+      "id": "kashkick",
+      "name": "Kashkick",
+      "url": "https://www.kashkick.com/",
+      "type": "GPT site",
+      "curated_open": false,
+      "min_payout": "$10",
+      "payout_methods": "PayPal",
+      "notes": "US only. Nigeria is NOT accepted."
+    },
+    {
+      "id": "acop",
+      "name": "American Consumer Opinion",
+      "url": "https://www.americancashout.com/",
+      "type": "Survey panel",
+      "curated_open": false,
+      "min_payout": "$10",
+      "payout_methods": "PayPal, check",
+      "notes": "Global brand but surveys rarely target Nigeria. Treat as restricted."
+    },
+    {
+      "id": "superpay",
+      "name": "Superpay.me",
+      "url": "https://www.superpay.me/",
+      "type": "GPT site",
+      "curated_open": null,
+      "min_payout": "$1",
+      "payout_methods": "PayPal, Skrill, Bitcoin",
+      "notes": "Very low payout threshold. Verify Nigeria is accepted at signup - the daily checker will help."
+    },
+    {
+      "id": "rewardingways",
+      "name": "Rewarding Ways",
+      "url": "https://www.rewardingways.com/",
+      "type": "GPT site",
+      "curated_open": null,
+      "min_payout": "$1",
+      "payout_methods": "PayPal, Skrill, Bitcoin",
+      "notes": "Same family as Superpay.me. Dual-category status until confirmed."
+    },
+    {
+      "id": "instagc",
+      "name": "InstaGC",
+      "url": "https://www.instagc.com/",
+      "type": "GPT site",
+      "curated_open": null,
+      "min_payout": "$1",
+      "payout_methods": "PayPal, crypto, gift cards",
+      "notes": "Some offers work internationally. Confirm NG availability at signup."
+    },
+    {
+      "id": "paidviewpoint",
+      "name": "PaidViewpoint",
+      "url": "https://www.paidviewpoint.com/",
+      "type": "Survey panel",
+      "curated_open": null,
+      "min_payout": "$15 PayPal",
+      "payout_methods": "PayPal",
+      "notes": "TraitSurveys pay small but reliably. Signups vary by country - verify NG."
+    },
+    {
+      "id": "goopinionrewards",
+      "name": "Google Opinion Rewards",
+      "url": "https://surveys.google.com/google-opinion-rewards/",
+      "type": "Mobile app",
+      "curated_open": null,
+      "min_payout": "Store credit only",
+      "payout_methods": "Play/Store credit",
+      "notes": "Not officially available for Nigerian accounts. Install may fail in the Play Store."
+    },
+    {
+      "id": "pollpay",
+      "name": "Poll Pay",
+      "url": "https://pollpay.app/",
+      "type": "Mobile app",
+      "curated_open": null,
+      "min_payout": "$5",
+      "payout_methods": "PayPal, gift cards",
+      "notes": "Country availability varies per store region - verify from your phone."
+    },
+    {
+      "id": "zapsurveys",
+      "name": "Zap Surveys",
+      "url": "https://zapsurveys.com/",
+      "type": "Mobile app",
+      "curated_open": null,
+      "min_payout": "$25",
+      "payout_methods": "PayPal, gift cards, donations",
+      "notes": "High minimum. NG acceptance reported inconsistently - verify."
+    }
+  ]
+}

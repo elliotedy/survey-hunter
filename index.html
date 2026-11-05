@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Survey Hunter 🇳🇬 — daily survey finder for Nigerians</title>
+  <meta name="description" content="Daily-updated list of paid survey sites, split into platforms open to Nigerians and platforms that restrict Nigeria.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎯</text></svg>">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="logo">🎯</span>
+      <span>Survey Hunter</span>
+      <span class="flag">🇳🇬</span>
+    </div>
+    <div class="updated" id="updated">loading…</div>
+  </header>
+
+  <main>
+    <section class="stats" id="stats" aria-label="Summary"></section>
+
+    <nav class="tabs" id="tabs" role="tablist" aria-label="Categories"></nav>
+
+    <label class="searchwrap" for="search">
+      <span class="searchicon">🔎</span>
+      <input id="search" type="search" autocomplete="off"
+             placeholder="Search name, payout method, notes…">
+    </label>
+
+    <section class="cards" id="cards" aria-live="polite"></section>
+  </main>
+
+  <footer>
+    <p>
+      <strong>Disclaimer:</strong> survey companies change their country rules often.
+      Always confirm at signup before investing your time. Classification is based on
+      a curated list + a daily automated page check (geo-block language and country
+      mentions), not on a personal guarantee.
+    </p>
+    <p class="tiny">Data is refreshed daily by GitHub Actions · built for Termux, phone &amp; desktop.</p>
+  </footer>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
