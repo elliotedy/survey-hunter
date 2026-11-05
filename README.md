@@ -113,6 +113,34 @@ or use `termux-job-scheduler`/`cronie` from `pkg`, and schedule:
 python ~/survey-hunter/main.py --send-telegram
 ```
 
+## Run it on your Windows PC
+
+Same commands as Termux — Python 3 is already installed on the PC:
+
+```powershell
+cd "C:\users\<you>\...\survey hunter"
+python main.py                  # daily check + rebuild data
+python main.py --send-telegram  # also push the Telegram digest
+python -m http.server 8000      # then open http://localhost:8000
+```
+
+Or just double-click, no typing:
+
+- **`run-today.bat`** → today's full check of all platforms
+  (extra: right-drag a shortcut to your desktop)
+- **`open-site.bat`** → opens the website locally in your browser
+
+**Telegram on the PC** (one-time, then `python main.py --send-telegram` works everywhere):
+
+```powershell
+setx TELEGRAM_BOT_TOKEN "123456:ABC-DEF..."
+setx TELEGRAM_CHAT_ID "0123456789"
+```
+
+**Daily automation on the PC:** Start menu → search **Task Scheduler**
+→ *Create Basic Task* → name it → **Daily 06:30** → *Start a program* →
+browse to `run-today.bat` → add the argument `--auto` → Finish.
+
 ## 5) Customising the platform list
 
 Edit `data/sources.json`:
