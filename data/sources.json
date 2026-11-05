@@ -653,6 +653,126 @@
       "min_payout": "USD $60-150/hr when accepted",
       "payout_via": "Wire / Payoneer",
       "notes": "Screens to roughly the top 3% worldwide - long English skills + portfolio + live interviews. Not a beginner platform; revisit after 1-2 years of solid work."
+    },
+    {
+      "id": "opay-refer",
+      "vertical": "affiliate",
+      "name": "OPay Referrals",
+      "url": "https://www.opayweb.com/",
+      "type": "NG fintech referral",
+      "curated_open": true,
+      "min_payout": "Naira referral bonuses (in-app)",
+      "payout_via": "OPay wallet",
+      "earn_model": "Invite friends to join/use OPay; Naira bonuses land in your wallet",
+      "notes": "Widely used NG money app - referral rewards change by campaign, check the app's 'Invite' tab."
+    },
+    {
+      "id": "palmpay-refer",
+      "vertical": "affiliate",
+      "name": "PalmPay Referrals",
+      "url": "https://www.palmpay-inc.com/",
+      "type": "NG fintech referral",
+      "curated_open": true,
+      "min_payout": "Naira per verified invite (in-app)",
+      "payout_via": "PalmPay wallet",
+      "earn_model": "Share invite code; earn when friends signup & transact (cashback apps too)",
+      "notes": "Check the app's referral/rewards section for current bonus amounts."
+    },
+    {
+      "id": "moniepoint-refer",
+      "vertical": "affiliate",
+      "name": "Moniepoint",
+      "url": "https://moniepoint.com/",
+      "type": "NG fintech (agents/referrals)",
+      "curated_open": null,
+      "min_payout": "Varies by program",
+      "payout_via": "NG bank",
+      "earn_model": "Become a POS agent or refer merchants; commissions on transactions",
+      "notes": "Agent-model: if you have a small business, Moniepoint POS terminals can earn transaction commissions. Verify current referral offer in-app."
+    },
+    {
+      "id": "piggyvest-refer",
+      "vertical": "affiliate",
+      "name": "PiggyVest Referrals",
+      "url": "https://www.piggyvest.com/",
+      "type": "NG savings fintech referral",
+      "curated_open": true,
+      "min_payout": "Naira bonus per saver (in-app)",
+      "payout_via": "NG bank",
+      "earn_model": "Invite people to start saving; bonuses when they save/verify (often 1,000-ish)",
+      "notes": "Huge among NG students/ creators: save + refer content performs well on socials."
+    },
+    {
+      "id": "cowrywise-refer",
+      "vertical": "affiliate",
+      "name": "Cowrywise",
+      "url": "https://cowrywise.com/",
+      "type": "NG savings/invest referral",
+      "curated_open": true,
+      "min_payout": "Naira bonus per verified signup",
+      "payout_via": "NG bank",
+      "earn_model": "Referral campaign credits for inviting savers",
+      "notes": "Simple share-and-earn in-app. Combine PiggyVest + Cowrywise content as one 'start saving' post series."
+    },
+    {
+      "id": "risevest-refer",
+      "vertical": "affiliate",
+      "name": "Risevest",
+      "url": "https://risevest.com/",
+      "type": "NG USD-investment referral",
+      "curated_open": true,
+      "min_payout": "Cash bonus per investor",
+      "payout_via": "NG bank",
+      "earn_model": "Invite friends to invest in Dollar plans; referral cash bonuses",
+      "notes": "Dollar-investment angle sells to salary earners - do honest, no-hype posts."
+    },
+    {
+      "id": "chipper-refer",
+      "vertical": "affiliate",
+      "name": "Chipper Cash",
+      "url": "https://chippercash.com/",
+      "type": "Cross-border payments referral",
+      "curated_open": true,
+      "min_payout": "Cash bonus per invited user",
+      "payout_via": "App balance",
+      "earn_model": "Invite friends to send/receive money; bonus per qualifying signup",
+      "notes": "Bonus amounts change by campaign - check the app's invite section."
+    },
+    {
+      "id": "kuda-refer",
+      "vertical": "affiliate",
+      "name": "Kuda MFB",
+      "url": "https://www.kuda.com/",
+      "type": "NG digital bank referral",
+      "curated_open": null,
+      "min_payout": "Varies by campaign",
+      "payout_via": "NG bank",
+      "earn_model": "Referral rewards when active when they run campaigns - verify in-app first",
+      "notes": "Kuda runs referral drives in waves. When OFF, there is no reward - so confirm before promoting."
+    },
+    {
+      "id": "bybit-refer",
+      "vertical": "affiliate",
+      "name": "Bybit Referral",
+      "url": "https://www.bybit.com/",
+      "type": "Crypto exchange referral",
+      "curated_open": true,
+      "min_payout": "% of friends' trading fees + bonuses",
+      "payout_via": "Crypto wallet",
+      "earn_model": "Share signup link; earn commission + campaign bonuses",
+      "notes": "For audiences already trading. Same ethics as Binance: never pressure anyone into crypto."
+    },
+    {
+      "id": "remitano-refer",
+      "vertical": "affiliate",
+      "name": "Remitano",
+      "url": "https://remitano.com/",
+      "type": "P2P crypto referral",
+      "curated_open": null,
+      "min_payout": "% commission",
+      "payout_via": "Crypto",
+      "earn_model": "Referral commission on P2P trades",
+      "notes": "Active with Nigerian P2P traders - verify current terms before promoting."
     }
   ]
 }

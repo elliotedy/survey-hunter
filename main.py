@@ -98,6 +98,12 @@ def main():
     else:
         snapshot = finalize(platforms, args.skip_check, args.workers)
 
+    # Keep the shareable link-in-bio page in sync with the snapshot.
+    # (Do this every run so manual edits/keyword changes propagate.)
+    from scraper.links import generate_links
+    links_path = generate_links(snapshot)
+    print(f"[{now_utc():%H:%M:%S}] Link hub written -> {links_path}")
+
     if args.send_telegram:
         send(snapshot)
 

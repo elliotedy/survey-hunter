@@ -188,6 +188,7 @@ index.html            website (single page, mobile-first)
 assets/               site styles + logic (vanilla, no build tools)
 data/sources.json     editable registry of all money streams (survey / affiliate / freelance) ← EDIT ME
 data/surveys.json     daily generated snapshot
+links.html            shareable link-in-bio page (auto-generated) ← drop on your socials
 scraper/              python package (checker, classifier, telegram)
 main.py               CLI entry point
 .github/workflows/    daily GitHub Actions job (cron + commit + telegram)
