@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05T11:30:48+00:00",
+  "generated_at": "2026-11-05T11:58:16+00:00",
   "summary": {
     "total": 35,
     "nigeria_open": 17,
@@ -19,7 +19,7 @@
       "notes": "Survey app with active presence in Africa. Low payout, quick surveys.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:00+00:00",
+      "checked_at": "2026-11-05T11:57:38+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -34,7 +34,7 @@
       "notes": "Android/iOS app that accepts a wide list of countries including Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T11:57:40+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -49,7 +49,7 @@
       "notes": "Pays only in crypto, which is convenient for Nigerians without PayPal.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:07+00:00",
+      "checked_at": "2026-11-05T11:57:43+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -64,7 +64,7 @@
       "notes": "Fast payouts and many survey partners. Popular with Nigerian users.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:29:59+00:00",
+      "checked_at": "2026-11-05T11:57:36+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -79,7 +79,7 @@
       "notes": "Long-running GPT site. Some offer walls geo-limit NG, but signup is open for Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:03+00:00",
+      "checked_at": "2026-11-05T11:57:37+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -94,7 +94,7 @@
       "notes": "Runs Nigeria panels from time to time. Confirm Nigeria appears in the country list at signup.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:01+00:00",
+      "checked_at": "2026-11-05T11:57:36+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -109,7 +109,7 @@
       "notes": "Surveys plus passive internet-sharing income. Works from a Nigerian phone.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:03+00:00",
+      "checked_at": "2026-11-05T11:57:39+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -124,7 +124,7 @@
       "notes": "Get paid for local price checks and photo tasks around you. Very active in Nigerian cities.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T11:57:44+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -139,7 +139,7 @@
       "notes": "Short video/photo tasks. Nigerian availability is occasional - grab it when tasks appear.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T11:57:45+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -154,7 +154,7 @@
       "notes": "Focuses on emerging markets; Nigerian membership has historically been available.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T11:57:44+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -169,7 +169,7 @@
       "notes": "Very Africa-friendly. Extras like Real Tasks (photos, traffic, search) pay well from Nigeria. Crypto payout avoids PayPal headaches.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:29:57+00:00",
+      "checked_at": "2026-11-05T11:57:35+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -184,7 +184,7 @@
       "notes": "Choose Nigeria in the country selector at signup; a dedicated NG portal usually exists.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:08+00:00",
+      "checked_at": "2026-11-05T11:57:42+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -199,7 +199,7 @@
       "notes": "Global router with African panels. Smaller rewards but steady invites from Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:29:58+00:00",
+      "checked_at": "2026-11-05T11:57:36+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -214,7 +214,7 @@
       "notes": "Respected research company with an African/Nigeria panel. Pick Nigeria in the country selector at signup.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:05+00:00",
+      "checked_at": "2026-11-05T11:57:41+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -229,7 +229,7 @@
       "notes": "One of the most reliable routers Nigerians actually receive paid surveys on. Fill your profile 100% to get more invites.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-05T11:29:57+00:00",
+      "checked_at": "2026-11-05T11:57:35+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -244,7 +244,7 @@
       "notes": "Big global panel; Nigerian members report regular invites.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:48+00:00",
+      "checked_at": "2026-11-05T11:57:59+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectTimeout"
@@ -259,7 +259,7 @@
       "notes": "Built for African users. Low entry point and mobile-money payouts.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:05+00:00",
+      "checked_at": "2026-11-05T11:57:41+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -276,7 +276,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:14+00:00",
+      "checked_at": "2026-11-05T11:57:47+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -291,7 +291,7 @@
       "notes": "Runs panels in selected countries; no Nigerian panel.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:15+00:00",
+      "checked_at": "2026-11-05T11:57:48+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -306,7 +306,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:22+00:00",
+      "checked_at": "2026-11-05T11:57:51+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -321,7 +321,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:13+00:00",
+      "checked_at": "2026-11-05T11:57:45+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -336,7 +336,7 @@
       "notes": "US/UK/CA and a few EU markets. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:18+00:00",
+      "checked_at": "2026-11-05T11:57:48+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -351,7 +351,7 @@
       "notes": "Pays great rates but Nigeria is not an eligible signup country.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:16+00:00",
+      "checked_at": "2026-11-05T11:57:48+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -366,7 +366,7 @@
       "notes": "Country list changes but Nigeria is generally NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:17+00:00",
+      "checked_at": "2026-11-05T11:57:48+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -381,7 +381,7 @@
       "notes": "Global brand but surveys rarely target Nigeria. Treat as restricted.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:14+00:00",
+      "checked_at": "2026-11-05T11:57:46+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -396,7 +396,7 @@
       "notes": "US/UK/CA only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:08+00:00",
+      "checked_at": "2026-11-05T11:57:42+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -411,7 +411,7 @@
       "notes": "Restricted to US, Canada and Australia. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:09+00:00",
+      "checked_at": "2026-11-05T11:57:44+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -428,7 +428,7 @@
       "notes": "Not officially available for Nigerian accounts. Install may fail in the Play Store.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:20+00:00",
+      "checked_at": "2026-11-05T11:57:51+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -443,7 +443,7 @@
       "notes": "Some offers work internationally. Confirm NG availability at signup.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:23+00:00",
+      "checked_at": "2026-11-05T11:57:55+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -458,7 +458,7 @@
       "notes": "TraitSurveys pay small but reliably. Signups vary by country - verify NG.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:23+00:00",
+      "checked_at": "2026-11-05T11:57:55+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -473,7 +473,7 @@
       "notes": "Country availability varies per store region - verify from your phone.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-05T11:30:25+00:00",
+      "checked_at": "2026-11-05T11:57:55+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -488,7 +488,7 @@
       "notes": "Pays well on offer walls. Accepts most countries including Nigeria.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-05T11:29:58+00:00",
+      "checked_at": "2026-11-05T11:57:35+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -503,7 +503,7 @@
       "notes": "Same family as Superpay.me. Dual-category status until confirmed.",
       "curated_open": null,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:18+00:00",
+      "checked_at": "2026-11-05T11:57:50+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -518,7 +518,7 @@
       "notes": "Very low payout threshold. Verify Nigeria is accepted at signup - the daily checker will help.",
       "curated_open": null,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:17+00:00",
+      "checked_at": "2026-11-05T11:57:50+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -533,7 +533,7 @@
       "notes": "High minimum. NG acceptance reported inconsistently - verify.",
       "curated_open": null,
       "status": "error",
-      "checked_at": "2026-11-05T11:30:45+00:00",
+      "checked_at": "2026-11-05T11:58:16+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ReadTimeout"

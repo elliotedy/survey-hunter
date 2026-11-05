@@ -78,6 +78,8 @@ def main():
                         help="skip network live checks (offline mode)")
     parser.add_argument("--send-telegram", action="store_true",
                         help="send the Telegram digest after building the snapshot")
+    parser.add_argument("--auto", action="store_true",
+                        help="headless marker used by run-today.bat / Task Scheduler (no-op)")
     parser.add_argument("--workers", type=int, default=8,
                         help="parallel HTTP workers (default 8)")
     args = parser.parse_args()
