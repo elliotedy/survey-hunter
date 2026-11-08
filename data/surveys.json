@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-07T11:53:42+00:00",
+  "generated_at": "2026-11-08T12:06:25+00:00",
   "summary": {
     "total": 66,
     "nigeria_open": 35,
     "restricted": 11,
     "uncertain": 20,
     "checked": 66,
-    "errors": 16,
+    "errors": 13,
     "by_vertical": {
       "survey": 35,
       "affiliate": 24,
@@ -29,7 +29,7 @@
       "notes": "Survey app with active presence in Africa. Low payout, quick surveys.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -49,7 +49,7 @@
       "notes": "Join from your Binance profile (Referral). Only promote to people who already trade - avoid pressure.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 202"
@@ -69,7 +69,7 @@
       "notes": "For audiences already trading. Same ethics as Binance: never pressure anyone into crypto.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:16+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -89,7 +89,7 @@
       "notes": "Android/iOS app that accepts a wide list of countries including Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -109,7 +109,7 @@
       "notes": "Bonus amounts change by campaign - check the app's invite section.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -129,7 +129,7 @@
       "notes": "Pays only in crypto, which is convenient for Nigerians without PayPal.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -149,7 +149,7 @@
       "notes": "Strongest fit for you: recommend to every WordPress project you deliver and upsell in maintenance retainers.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -169,7 +169,7 @@
       "notes": "Very popular in Nigeria. Commissions are big but you must learn to market honestly - no fake income promises.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -189,7 +189,7 @@
       "notes": "Fast payouts and many survey partners. Popular with Nigerian users.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -209,7 +209,7 @@
       "notes": "Heavy competition but good for early portfolio pieces and NG-friendly payouts.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -229,7 +229,7 @@
       "notes": "Long-running GPT site. Some offer walls geo-limit NG, but signup is open for Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -249,7 +249,7 @@
       "notes": "Perfect for web designers: quote client 'domain + hosting + website' packages and pocket the hosting commission too.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -269,7 +269,7 @@
       "notes": "Second big NG marketplace. Run both Jumia + Konga and compare which converts for your audience.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:18+00:00",
+      "checked_at": "2026-11-08T12:06:16+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -289,7 +289,7 @@
       "notes": "Big global panel; Nigerian members report regular invites.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -309,7 +309,7 @@
       "notes": "Runs Nigeria panels from time to time. Confirm Nigeria appears in the country list at signup.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -329,7 +329,7 @@
       "notes": "Pays well on offer walls. Accepts most countries including Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:13+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -349,7 +349,7 @@
       "notes": "Widely used NG money app - referral rewards change by campaign, check the app's 'Invite' tab.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:17+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -369,7 +369,7 @@
       "notes": "Surveys plus passive internet-sharing income. Works from a Nigerian phone.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -389,7 +389,7 @@
       "notes": "Useful combo: your freelance and affiliate audiences all need a way to get paid.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:17+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -409,7 +409,7 @@
       "notes": "Huge among NG students/ creators: save + refer content performs well on socials.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -429,7 +429,7 @@
       "notes": "Get paid for local price checks and photo tasks around you. Very active in Nigerian cities.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -449,7 +449,7 @@
       "notes": "Dollar-investment angle sells to salary earners - do honest, no-hype posts.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -469,7 +469,7 @@
       "notes": "Short video/photo tasks. Nigerian availability is occasional - grab it when tasks appear.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -489,7 +489,7 @@
       "notes": "Pair with your own funnel-setup service. Recurring beats one-time money.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -509,7 +509,7 @@
       "notes": "Focuses on emerging markets; Nigerian membership has historically been available.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -529,7 +529,7 @@
       "notes": "Choose Nigeria in the country selector at signup; a dedicated NG portal usually exists.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -549,7 +549,7 @@
       "notes": "Global router with African panels. Smaller rewards but steady invites from Nigeria.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -569,7 +569,7 @@
       "notes": "Free to browse. Put 'open to working with remote systems' + portfolio site in every application.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:17+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -589,7 +589,7 @@
       "notes": "Respected research company with an African/Nigeria panel. Pick Nigeria in the country selector at signup.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -609,7 +609,7 @@
       "notes": "One of the most reliable routers Nigerians actually receive paid surveys on. Fill your profile 100% to get more invites.",
       "curated_open": true,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:13+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -629,7 +629,7 @@
       "notes": "Simple share-and-earn in-app. Combine PiggyVest + Cowrywise content as one 'start saving' post series.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 405"
@@ -649,7 +649,7 @@
       "notes": "Nigeria's biggest marketplace. Perfect to push on WhatsApp, X, TikTok and a simple product list page.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -669,7 +669,7 @@
       "notes": "Check the app's referral/rewards section for current bonus amounts.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -689,7 +689,7 @@
       "notes": "Built for African users. Low entry point and mobile-money payouts.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -709,7 +709,7 @@
       "notes": "Accepts Nigerian freelancers; decent starter volume while Upwork profile matures.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 429"
@@ -731,7 +731,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -751,7 +751,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -771,7 +771,7 @@
       "notes": "US only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -791,7 +791,7 @@
       "notes": "US/UK/CA and a few EU markets. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -811,7 +811,7 @@
       "notes": "Pays great rates but Nigeria is not an eligible signup country.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -831,7 +831,7 @@
       "notes": "Restricted to US, Canada and Australia. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -851,7 +851,7 @@
       "notes": "Country list changes but Nigeria is generally NOT accepted.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -871,7 +871,7 @@
       "notes": "Screens to roughly the top 3% worldwide - long English skills + portfolio + live interviews. Not a beginner platform; revisit after 1-2 years of solid work.",
       "curated_open": false,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -891,7 +891,7 @@
       "notes": "Global brand but surveys rarely target Nigeria. Treat as restricted.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -911,7 +911,7 @@
       "notes": "US/UK/CA only. Nigeria is NOT accepted.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:14+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "ConnectionError"
@@ -931,7 +931,7 @@
       "notes": "Runs panels in selected countries; no Nigerian panel.",
       "curated_open": false,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -953,8 +953,48 @@
       "notes": "Applications from Nigeria are accepted irregularly and approval varies - verify and follow their payout rules.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
+      "nigeria_mentioned": false,
+      "check_detail": "HTTP 200"
+    },
+    {
+      "id": "fiverr-freelance",
+      "name": "Fiverr (sell gigs)",
+      "url": "https://www.fiverr.com/",
+      "type": "Freelance marketplace",
+      "vertical": "freelance",
+      "earn_model": "Package web design gigs: landing pages, redesigns, WordPress fixes, monthly care plans",
+      "payout_via": "Payoneer, PayPal, bank",
+      "ref_program": "",
+      "your_ref_url": "",
+      "min_payout": "You keep 80% of every order",
+      "payout_methods": "?",
+      "notes": "Start with 3 tight gigs + samples in your portfolio. NG accounts are fully supported.",
+      "curated_open": true,
+      "status": "ok",
+      "checked_at": "2026-11-08T12:06:15+00:00",
+      "block_signal": true,
+      "nigeria_mentioned": false,
+      "check_detail": "HTTP 200"
+    },
+    {
+      "id": "fiverr-affiliate",
+      "name": "Fiverr Affiliates",
+      "url": "https://affiliates.fiverr.com/",
+      "type": "Marketplace affiliate",
+      "vertical": "affiliate",
+      "earn_model": "Send buyers to Fiverr gigs; earn per sign-up/first order",
+      "payout_via": "PayPal, Payoneer, wire",
+      "ref_program": "",
+      "your_ref_url": "",
+      "min_payout": "CPA $15-$150 per buyer",
+      "payout_methods": "?",
+      "notes": "Nigerian designers can earn by sending leads for gigs they don't offer themselves (logo, SEO, apps...).",
+      "curated_open": true,
+      "status": "ok",
+      "checked_at": "2026-11-08T12:06:14+00:00",
+      "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
     },
@@ -973,7 +1013,7 @@
       "notes": "Not officially available for Nigerian accounts. Install may fail in the Play Store.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -993,9 +1033,29 @@
       "notes": "Some offers work internationally. Confirm NG availability at signup.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
+      "check_detail": "HTTP 200"
+    },
+    {
+      "id": "kuda-refer",
+      "name": "Kuda MFB",
+      "url": "https://www.kuda.com/",
+      "type": "NG digital bank referral",
+      "vertical": "affiliate",
+      "earn_model": "Referral rewards when active when they run campaigns - verify in-app first",
+      "payout_via": "NG bank",
+      "ref_program": "",
+      "your_ref_url": "",
+      "min_payout": "Varies by campaign",
+      "payout_methods": "?",
+      "notes": "Kuda runs referral drives in waves. When OFF, there is no reward - so confirm before promoting.",
+      "curated_open": null,
+      "status": "ok",
+      "checked_at": "2026-11-08T12:06:25+00:00",
+      "block_signal": false,
+      "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
     },
     {
@@ -1013,7 +1073,7 @@
       "notes": "Agent-model: if you have a small business, Moniepoint POS terminals can earn transaction commissions. Verify current referral offer in-app.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -1033,7 +1093,7 @@
       "notes": "TraitSurveys pay small but reliably. Signups vary by country - verify NG.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1053,7 +1113,7 @@
       "notes": "Verify NG onboarding at signup - availability is reported inconsistently.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 202"
@@ -1073,7 +1133,7 @@
       "notes": "Country availability varies per store region - verify from your phone.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1093,7 +1153,7 @@
       "notes": "Same family as Superpay.me. Dual-category status until confirmed.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1113,7 +1173,7 @@
       "notes": "Very low payout threshold. Verify Nigeria is accepted at signup - the daily checker will help.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1133,7 +1193,7 @@
       "notes": "Temu's site already targets NG traffic (cheap gadgets sell fast), but affiliate-program acceptance for Nigerian accounts is unconfirmed - apply and verify; the daily checker watches the page for you.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": true,
       "check_detail": "HTTP 200"
@@ -1153,7 +1213,7 @@
       "notes": "One sale covers a client laptop repair - verify NG acceptance at signup.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1173,7 +1233,7 @@
       "notes": "High minimum. NG acceptance reported inconsistently - verify.",
       "curated_open": null,
       "status": "ok",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": false,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 200"
@@ -1193,70 +1253,10 @@
       "notes": "Post design tutorials in NG communities; affiliate link under each - teach and earn.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
-    },
-    {
-      "id": "fiverr-freelance",
-      "name": "Fiverr (sell gigs)",
-      "url": "https://www.fiverr.com/",
-      "type": "Freelance marketplace",
-      "vertical": "freelance",
-      "earn_model": "Package web design gigs: landing pages, redesigns, WordPress fixes, monthly care plans",
-      "payout_via": "Payoneer, PayPal, bank",
-      "ref_program": "",
-      "your_ref_url": "",
-      "min_payout": "You keep 80% of every order",
-      "payout_methods": "?",
-      "notes": "Start with 3 tight gigs + samples in your portfolio. NG accounts are fully supported.",
-      "curated_open": true,
-      "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
-      "block_signal": true,
-      "nigeria_mentioned": false,
-      "check_detail": "HTTP 403 (possible geo-block)"
-    },
-    {
-      "id": "fiverr-affiliate",
-      "name": "Fiverr Affiliates",
-      "url": "https://affiliates.fiverr.com/",
-      "type": "Marketplace affiliate",
-      "vertical": "affiliate",
-      "earn_model": "Send buyers to Fiverr gigs; earn per sign-up/first order",
-      "payout_via": "PayPal, Payoneer, wire",
-      "ref_program": "",
-      "your_ref_url": "",
-      "min_payout": "CPA $15-$150 per buyer",
-      "payout_methods": "?",
-      "notes": "Nigerian designers can earn by sending leads for gigs they don't offer themselves (logo, SEO, apps...).",
-      "curated_open": true,
-      "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
-      "block_signal": true,
-      "nigeria_mentioned": false,
-      "check_detail": "HTTP 403 (possible geo-block)"
-    },
-    {
-      "id": "kuda-refer",
-      "name": "Kuda MFB",
-      "url": "https://www.kuda.com/",
-      "type": "NG digital bank referral",
-      "vertical": "affiliate",
-      "earn_model": "Referral rewards when active when they run campaigns - verify in-app first",
-      "payout_via": "NG bank",
-      "ref_program": "",
-      "your_ref_url": "",
-      "min_payout": "Varies by campaign",
-      "payout_methods": "?",
-      "notes": "Kuda runs referral drives in waves. When OFF, there is no reward - so confirm before promoting.",
-      "curated_open": null,
-      "status": "error",
-      "checked_at": "2026-11-07T11:53:42+00:00",
-      "block_signal": false,
-      "nigeria_mentioned": false,
-      "check_detail": "ReadTimeout"
     },
     {
       "id": "remitano-refer",
@@ -1273,7 +1273,7 @@
       "notes": "Active with Nigerian P2P traders - verify current terms before promoting.",
       "curated_open": null,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:15+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -1293,7 +1293,7 @@
       "notes": "Join through Selar's affiliate section after signup. Bonus: you can also SELL YOUR OWN design templates there.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:15+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -1313,7 +1313,7 @@
       "notes": "Very Africa-friendly. Extras like Real Tasks (photos, traffic, search) pay well from Nigeria. Crypto payout avoids PayPal headaches.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:13+00:00",
+      "checked_at": "2026-11-08T12:06:13+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
@@ -1333,7 +1333,7 @@
       "notes": "Strong for web designers: hourly + fixed contracts. Build profile with your Survey Hunter site as proof.",
       "curated_open": true,
       "status": "error",
-      "checked_at": "2026-11-07T11:53:16+00:00",
+      "checked_at": "2026-11-08T12:06:14+00:00",
       "block_signal": true,
       "nigeria_mentioned": false,
       "check_detail": "HTTP 403 (possible geo-block)"
